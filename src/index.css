@@ -17,13 +17,26 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  width: 100vw;
   min-width: 320px;
   min-height: 100vh;
+  background: rgb(21, 27, 51);
+  background: linear-gradient(
+    180deg,
+    rgba(21, 27, 51, 1) 0%,
+    rgba(13, 34, 48, 1) 100%
+  );
+}
+
+#root {
+  display: flex;
+  place-items: center;
+  width: 100%;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #ffffff;
     background-color: #ffffff;
   }
   a:hover {

@@ -1,0 +1,15 @@
+.time {
+  font-size: 64px;
+  display: flex;
+  .timeValue {
+    flex: 1;
+  }
+}
+
+.container {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

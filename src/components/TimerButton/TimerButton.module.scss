@@ -1,0 +1,16 @@
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  appearance: none;
+  border: none;
+  color: white;
+  background: rgb(48, 62, 116);
+  border: 1px solid rgb(70, 89, 168);
+  font-size: 24px;
+}
+
+.btnBar {
+  display: flex;
+  gap: 8px;
+}
