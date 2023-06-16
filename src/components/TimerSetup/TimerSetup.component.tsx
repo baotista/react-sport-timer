@@ -32,8 +32,9 @@ const TimerSetup = () => {
         />
       </div>
       <div className={styles.formGroup}>
-        <label htmlFor="series">Time per serie</label>
+        <label htmlFor="time">Time per serie</label>
         <input
+          id="time"
           type="number"
           value={state?.time}
           onChange={updateTime}
